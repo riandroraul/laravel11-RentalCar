@@ -28,8 +28,7 @@ Sebelum memulai, pastikan Anda telah memenuhi prasyarat berikut:
     ```
 2. **install package**
     ```bash
-    git clone https://github.com/username/laravel11-RentalCar.git
-    cd laravel11-RentalCar
+    composer install
     ```
 3. **rename env file**
    cp .env.example .env
