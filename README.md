@@ -35,7 +35,10 @@ Sebelum memulai, pastikan Anda telah memenuhi prasyarat berikut:
    cp .env.example .env
 
 4. **setup database and table**
-   php artisan migrate
-
+    ```bash
+    php artisan migrate
+    ```
 5. **running application**
-   php artisan serve
+    ```bash
+    php artisan serve
+    ```
