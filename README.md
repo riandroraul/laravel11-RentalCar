@@ -31,7 +31,7 @@ Sebelum memulai, pastikan Anda telah memenuhi prasyarat berikut:
     composer install
     ```
 3. **rename env file**
-   \n cp .env.example .env
+   <br> cp .env.example .env
 
 4. **setup database and table**
     ```bash
