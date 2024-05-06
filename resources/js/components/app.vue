@@ -1,13 +1,14 @@
 <template>
   <div>
-    <h1>Hello world</h1>
+    <!-- <h1>Hello world</h1>
     <p>
       <strong>Current Route path: </strong>{{ $route.fullPath }}
-    </p>
+    </p> -->
     <nav>
       <div>
         <router-link class="link" to="/">Home</router-link>
         <router-link class="link" to="/about">About</router-link>
+        <router-link class="link" to="/register">Register</router-link>
       </div>
     </nav>
     <main>

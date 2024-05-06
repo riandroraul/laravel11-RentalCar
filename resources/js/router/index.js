@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../components/Home.vue";
 import About from "../components/About.vue";
 import NotFound from "../components/NotFound.vue";
+import Register from "../components/Register.vue";
 
 const routes = [
     {
@@ -16,6 +17,10 @@ const routes = [
     {
         path: "/:pathMatch(.*)*",
         component: NotFound,
+    },
+    {
+        path: "/register",
+        component: Register,
     },
 ];
 
