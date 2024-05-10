@@ -1,18 +1,4 @@
 <!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
-<!--
   This example requires updating your template:
 
   ```
@@ -28,10 +14,9 @@
                 alt="Your Company">
             <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your
                 account
-                {{ $title }}
             </h2>
         </div>
-
+        <x-slot:title>{{ $title }}</x-slot:title>
         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             <form class="space-y-6" action="#" method="POST">
                 <div>

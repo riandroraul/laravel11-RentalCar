@@ -41,3 +41,7 @@ Sebelum memulai, pastikan Anda telah memenuhi prasyarat berikut:
     ```bash
     php artisan serve
     ```
+    in another terminal run:
+    ```bash
+    npm run dev
+    ```
