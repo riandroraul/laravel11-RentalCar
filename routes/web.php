@@ -18,6 +18,16 @@ Route::get('/contact', function () {
     return view('contact', ['title' => 'Contact Page']);
 });
 
+// Route::get('/login', function () {
+//     return view('login');
+// });
+
+// Route::get('/regis', function () {
+//     return view('regis', ['title' => 'Contact Page']);
+// });
+
+
+
 
 // Route::get('/{pathMatch}', function () {
 //     return view('welcome');
